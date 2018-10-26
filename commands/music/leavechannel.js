@@ -14,6 +14,7 @@ class LeaveChannelCommand extends commando.Command{
         
         if(message.guild.voiceConnection){
             message.guild.voiceConnection.disconnect();
+            message.channel.send("Disconnected");
         }
         else{
             message.channel.send("Not in voice channel");
