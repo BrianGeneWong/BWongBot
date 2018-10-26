@@ -1,9 +1,12 @@
 const Discord = require('discord.js');
 const commando= require('discord.js-commando');
 const bot = new commando.Client();
+
+//token contained in this file
 const auth = require('./auth.json');
 const redditauth= require('./redditauth.json');
 const snoowrap= require('snoowrap');
+
 
 
 bot.registry.registerGroup('random','Random');

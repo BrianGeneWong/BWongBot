@@ -21,7 +21,10 @@
     "discord.js-commando": "^0.10.0",
     "ffmpeg-binaries": "^4.0.0",
     "opusscript": "0.0.6",
+<<<<<<< HEAD
     "snoowrap": "^1.15.2",
+=======
+>>>>>>> 92a8ea9b73c87cd138ea7909f3d717731a8bae8c
     "ytdl-core": "^0.26.3"
   }
 }
